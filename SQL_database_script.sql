@@ -1,9 +1,10 @@
 use API_project;
 
 drop table users;
-create table users (
-	username varchar(20),
-    name varchar(20)
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(20) NOT NULL,
+    name VARCHAR(20) NOT NULL
 );
 
 insert into users (username, name) values
