@@ -1,5 +1,9 @@
 # Usage Instructions
 
+### Download and Install Node.js
+
+- https://nodejs.org/en/download
+
 ### Install requirements
 
 `npm install`
@@ -10,7 +14,12 @@
 - DB_USER
 - DB_PASSWORD
 - DB_NAME
-- DB_PORT
+- PORT
+
+### Setup a mySQL database using the script
+
+- SQL_database_script.sql
+- Make sure to use `create database <databaseName>` before running the rest of the script.
 
 ### Run API
 
